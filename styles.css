@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap');
+
+html {
+  background-color: #f0f0f0;
+}
+
+body {
+  font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0;
+  padding: 1rem;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+.logo {
+  height: 80px;
+  margin-left: 10px;
+}
+
+h1 {
+  font-family: "Playfair Display", serif;
+  font-size: 48px;
+  text-align: left;
+  /* margin-bottom: 8px; */
+  color: black;
+  padding: 5px;
+  margin-left: 5px;
+}
+
+.go_to {
+  height: 50px;
+}
+
+/* .intro{
+  border: 2px solid ;
+}
+
+.svg {
+  border: 2px solid #f78418;
+} */
+
+.intro, .svg {
+  border: 2px solid #676e78;
+}
+
+.intro:hover,  .svg {
+  border: 2px solid white
+}
